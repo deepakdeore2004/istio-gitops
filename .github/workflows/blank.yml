@@ -6,6 +6,6 @@ jobs:
     runs-on: local
     steps:        
       - name: Install Istio
-        uses: deepakdeore2004/actions-istio-install@v0.1
+        uses: deepakdeore2004/actions-istio-install
         with:
           istio version: '1.6.3'
