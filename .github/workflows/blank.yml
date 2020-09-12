@@ -9,5 +9,5 @@ jobs:
       - name: Install Istio
         uses: deepakdeore2004/actions-istio-install@master
         with:
-          istio version: '1.6.5'
+          istio version: '1.6.4'
 
