@@ -3,7 +3,7 @@ on: [ push ]
 jobs:
   manifest:
     name: Generate istio manifest
-    runs-on: local
+    runs-on: local-linux
     container: istio/istioctl:1.6.3
     steps:        
       - name: Install Istio
