@@ -4,10 +4,10 @@ jobs:
   manifest:
     name: Generate istio manifest
     runs-on: local-linux
-    container: istio/istioctl:1.6.3
     steps:        
       - name: Install Istio
         uses: deepakdeore2004/actions-istio-install@master
         with:
           istio version: '1.6.5'
+          override file: 'values.yaml'
 
